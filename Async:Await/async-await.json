@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": "8e3d3460",
+      "name": "John Doe"
+    },
+    {
+      "id": "a0c63ac7",
+      "name": "Jane Bennett"
+    }
+  ],
+  "posts": [
+    {
+      "userId": "8e3d3460",
+      "body": "Hello World",
+      "id": "f4c8a31e"
+    },
+    {
+      "userId": "8e3d3460",
+      "body": "What is your favorite animal?",
+      "id": "c7beae11"
+    },
+    {
+      "userId": "a0c63ac7",
+      "body": "What are you doing today?",
+      "id": "892a4ba3"
+    }
+  ],
+  "comments": [
+    {
+      "postId": "f4c8a31e",
+      "comment": "Hi!",
+      "userId": "a0c63ac7",
+      "id": "91bf3f20"
+    },
+    {
+      "postId": "f4c8a31e",
+      "comment": "How are you?",
+      "userId": "8e3d3460",
+      "id": "a3305e5d"
+    },
+    {
+      "postId": "c7beae11",
+      "comment": "Mine is a cat, how about you?",
+      "userId": "a0c63ac7",
+      "id": "8627765a"
+    },
+    {
+      "postId": "c7beae11",
+      "comment": "I like dogs.",
+      "userId": "8e3d3460",
+      "id": "458cf886"
+    },
+    {
+      "postId": "892a4ba3",
+      "comment": "I'm learning how to code.",
+      "userId": "8e3d3460",
+      "id": "b378c209"
+    },
+    {
+      "postId": "892a4ba3",
+      "comment": "Oh, cool, let me know if you need help.",
+      "userId": "a0c63ac7",
+      "id": "28dc1ba9"
+    }
+  ]
+}

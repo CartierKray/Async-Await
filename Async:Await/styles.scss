@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0;
+  text-align: center;
+  body {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(95, 174, 248));
+    height: 100vh;
+  }
+  h1 {
+    margin: 25px;
+    &:hover {
+      filter: blur(2px);
+    }
+  }
+  .fetch-button {
+    font-size: 20px;
+    color: rgb(16, 147, 222);
+    border-radius: 10rem;
+    padding: 10px;
+    border-color: aqua;
+    background-color: rgb(79, 77, 77);
+    &:hover {
+      font-size: 25px;
+      color: lime;
+      filter: blur(1px);
+      border-color: lime;
+    }
+  }
+}
